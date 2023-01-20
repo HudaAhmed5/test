@@ -98,16 +98,4 @@ define(['./workbox-327c579b'], (function (workbox) { 'use strict';
   }), 'GET');
 
 }));
-this.addEventListener("fetch", (event)=>{
-  if(!navigator.onLine)
-  {
-    event.respondWith(
-      caches.match(event.request).then((resp)=>{
-        if(resp){
-          return resp
-        }
-      })
-    )
-  }
-})
 //# sourceMappingURL=sw.js.map

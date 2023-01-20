@@ -14,7 +14,7 @@ const Free = (props) => {
   };
 
   const getFreeApiData = async () => {
-    await fetch("http://localhost:3005/api/user/getFreePackage", {
+    await fetch("http://api.pakthaika.com/api/user/getFreePackage", {
       method: "GET",
       headers: {
         "content-type": "application/json",

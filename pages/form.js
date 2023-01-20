@@ -158,7 +158,7 @@ export default function Form() {
     }
     const getRegistrationData= async (body)=>{
        console.log('body is', body)
-    let response=   await fetch("http://localhost:3005/api/user/addUser", {
+    let response=   await fetch("http://api.pakthaika.com/api/user/addUser", {
               method: 'POST',
               headers: {
                 "content-type": "application/json",
