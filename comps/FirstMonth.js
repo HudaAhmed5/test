@@ -47,7 +47,7 @@ const FirstMonth = (props) => {
                   alignItems: "center",
                   textAlign: "center",
                   borderRadius:4,
-                  width: { xs: 235, sm: 320, md: 280, lg: 270 },
+                  width: { xs: 235, sm: 300, md: 280, lg: 270 },
                 height: { xs: 210, sm: 230, md: 220, lg: 230 },
                 }}
               >
