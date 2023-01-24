@@ -42,8 +42,8 @@ const SixMonths = (props) => {
                 alignItems: "center",
                 borderRadius: 4,
                 textAlign: "center",
-                width: { xs: 235, sm: 320, md: 280, lg: 250 },
-                height: { xs: 210, sm: 230, md: 220, lg: 210 },
+                width: { xs: 235, sm: 320, md: 280, lg: 270 },
+                height: { xs: 210, sm: 230, md: 220, lg: 230 },
               }}
             >
               <CardContent>

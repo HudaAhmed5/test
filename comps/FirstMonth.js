@@ -35,7 +35,7 @@ const FirstMonth = (props) => {
         };
           return item?.packageDuration === "1 Month" ? (
           
-             <Box sx={{alignItems:"center", marginLeft:"auto" , marginRight:"auto"}}>
+             <Box sx={{alignItems:"center", marginLeft:"auto", marginRight:"auto", flexWrap:"wrap"}}>
               <Card
                 sx={{
                   minWidth: 170,
@@ -47,8 +47,8 @@ const FirstMonth = (props) => {
                   alignItems: "center",
                   textAlign: "center",
                   borderRadius:4,
-                  width: { xs: 235, sm: 320, md: 280, lg: 250 },
-                height: { xs: 210, sm: 230, md: 220, lg: 210 },
+                  width: { xs: 235, sm: 320, md: 280, lg: 270 },
+                height: { xs: 210, sm: 230, md: 220, lg: 230 },
                 }}
               >
                 <CardContent>

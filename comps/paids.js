@@ -96,7 +96,7 @@ export default function Paid(props) {
     <>
      <div style={{display: min1200 ? "block" : 'none'}}>
     <Box
-      sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: 224 }}
+      sx={{ flexGrow:1, bgcolor: 'background.paper', display: 'flex', }}
     >
       <Tabs
           orientation="vertical"
