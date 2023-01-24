@@ -73,7 +73,7 @@ export default function Paid(props) {
           }
              newArr.push(x)
         })
-        // console.log("newarr", newArr);
+        console.log("newarr", newArr);
         setNewArray(newArr);
       });
   }
@@ -136,7 +136,7 @@ export default function Paid(props) {
     </Box>
     </div>
     <div style={{display: mx1200 ? "block" : 'none'}}>
-      <Grid container lg={12} md={12} sm={12}  sx={{justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
+      <Grid container  sx={{justifyContent:"center", alignItems:"center", flexDirection:"column"}}>
         <Grid item >
     <Box sx={{  borderColor: 'divider' }}>
   <Tabs value={value} onChange={handleChange} aria-label="basic tabs example"  

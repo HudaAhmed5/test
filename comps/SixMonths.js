@@ -26,7 +26,7 @@ const SixMonths = (props) => {
             setPaidPackageId('');
             setSelectedPackage('');
           };
-        return data.packageDuration === "sixMonth" ? (
+        return data.packageDuration === "6 Months" ? (
         
           <Box sx={{alignItems:"center", marginLeft:"auto" , marginRight:"auto"}}>
             <Card

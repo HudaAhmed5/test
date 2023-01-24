@@ -27,7 +27,7 @@ const ThreeMonths = (props) => {
           setSelectedPackage('');
         };
         
-        return data?.packageDuration === "threeMonth" ? (
+        return data?.packageDuration === "3 Months" ? (
           <Box sx={{alignItems:"center", marginLeft:"auto" , marginRight:"auto"}}>
             <Card
               sx={{

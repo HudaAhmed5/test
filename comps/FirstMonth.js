@@ -33,12 +33,12 @@ const FirstMonth = (props) => {
          setPackageId('')
           setSelectedPackage('');
         };
-          return item?.packageDuration === "oneMonth" ? (
+          return item?.packageDuration === "1 Month" ? (
           
              <Box sx={{alignItems:"center", marginLeft:"auto" , marginRight:"auto"}}>
               <Card
                 sx={{
-                  minWidth: 200,
+                  minWidth: 170,
                   backgroundColor:  item.packageId==packageId ? "#14613D" : 'rgb(241, 241, 241)',
                   opacity:0.9,
                   color: item.packageId==packageId ? "white" : "black",

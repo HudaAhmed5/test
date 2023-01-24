@@ -26,7 +26,7 @@ const Oneyear = (props) => {
           setPaidPackageId('');
           setSelectedPackage('');
         };
-        return data.packageDuration === "oneYear" ? (
+        return data.packageDuration === "1 Year" ? (
           <Box sx={{alignItems:"center", marginLeft:"auto" , marginRight:"auto"}}>
             <Card
               sx={{
