@@ -9,7 +9,7 @@ const FirstMonth = (props) => {
   const [selectedPackage, setSelectedPackage] = React.useState("");
   const [packageId, setPackageId] = React.useState("");
    let x= props.newArray
-  console.log("firstprops are", props)
+  // console.log("firstprops are", props)
   return (
   
     <Box sx={{display:"flex", flexWrap:"wrap"}}>

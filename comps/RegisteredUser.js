@@ -11,7 +11,6 @@ import InputAdornment from '@mui/material/InputAdornment';
 import { useRouter } from "next/router";
 import Alert from '@mui/material/Alert';
 const RegisteredUser = (props) => {
-  console.log("props in reg", props)
   const router = useRouter();
   const [cnic, setCnic]=React.useState('');
   const [phone, setPhone]=React.useState('');
@@ -48,13 +47,13 @@ const RegisteredUser = (props) => {
               cnic: values.cnic,
               
             }
-            console.log(" i am here",body)
+            // console.log(" i am here",body)
             DataBody(body)
     },
   });
   const getUserRegisterData= async (body)=>{
    
-    console.log('body is', body)
+    // console.log('body is', body)
  let response=   await fetch("https://api.pakthaika.com/api/user/isUserRegister", {
            method: 'POST',
            headers: {
@@ -64,7 +63,7 @@ const RegisteredUser = (props) => {
           
 })
 let newResponse= await  response.json()
-console.log("newRess", newResponse)
+// console.log("newRess", newResponse)
 if( newResponse && newResponse.statusCode==500){
   setErrorMsg(newResponse.message)
   setSuccessMsg(null)

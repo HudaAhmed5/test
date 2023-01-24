@@ -73,7 +73,7 @@ export default function Paid(props) {
           }
              newArr.push(x)
         })
-        console.log("newarr", newArr);
+        // console.log("newarr", newArr);
         setNewArray(newArr);
       });
   }

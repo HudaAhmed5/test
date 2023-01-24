@@ -153,7 +153,7 @@ const tokenDataAgain= async ()=>{
               <Alert sx={{heightL: 50 , width:300 , marginTop: 3, marginLeft:'auto', marginRight:'auto', justifyContent:"center",}}  variant="filled" severity="success">
               {successMsg}
               </Alert> : null}
-              {console.log("error ", errorMsg , "latee", lateVerification)}
+              {/* {console.log("error ", errorMsg , "latee", lateVerification)} */}
               { errorMsg || lateVerification?
              <Alert sx={{heightL: 50 , width:300, marginTop: 3, marginLeft:'auto', marginRight:'auto', justifyContent:"center", }}   variant="filled" severity="error">
               {errorMsg}
@@ -219,7 +219,7 @@ const tokenDataAgain= async ()=>{
               <Alert sx={{heightL: 50 , width:300 , marginTop: 3, marginLeft:'auto', marginRight:'auto', justifyContent:"center",}}  variant="filled" severity="success">
               {successMsg}
               </Alert> : null}
-              {console.log("error ", errorMsg , "latee", lateVerification)}
+              {/* {console.log("error ", errorMsg , "latee", lateVerification)} */}
               { errorMsg || lateVerification?
              <Alert sx={{height: 50 , width:300, marginTop: 3, marginLeft:'auto', marginRight:'auto', justifyContent:"center", }}   variant="filled" severity="error">
               {errorMsg}

@@ -84,7 +84,7 @@ export default function Form() {
   React.useEffect(() => {
     console.log("type is", packageType, "duration", paidMsg)
   }, [packageType]);
- console.log("paid msg is", paidMsg)
+//  console.log("paid msg is", paidMsg)
     const DataBody=(body) =>{
       registerData(body)
      
@@ -157,7 +157,7 @@ export default function Form() {
          
     }
     const getRegistrationData= async (body)=>{
-       console.log('body is', body)
+      //  console.log('body is', body)
     let response=   await fetch("https://api.pakthaika.com/api/user/addUser", {
               method: 'POST',
               headers: {
