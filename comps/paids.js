@@ -57,7 +57,7 @@ export default function Paid(props) {
 
 
    const getPaidApiData= async () => {
-    await fetch('http://api.pakthaika.com/api/user/getPaidPackage',{
+    await fetch('https://api.pakthaika.com/api/user/getPaidPackage',{
               method: 'GET',
           headers: {
               'content-type': 'application/json'

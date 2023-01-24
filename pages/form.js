@@ -158,7 +158,7 @@ export default function Form() {
     }
     const getRegistrationData= async (body)=>{
        console.log('body is', body)
-    let response=   await fetch("http://api.pakthaika.com/api/user/addUser", {
+    let response=   await fetch("https://api.pakthaika.com/api/user/addUser", {
               method: 'POST',
               headers: {
                 "content-type": "application/json",
@@ -167,7 +167,7 @@ export default function Form() {
              
   })
   let newResponse= await  response.json()
-  
+
   if( newResponse && newResponse.statusCode==412){
     setErrorMsg(newResponse.message)
     setSuccessMsg(null)

@@ -55,7 +55,7 @@ const RegisteredUser = (props) => {
   const getUserRegisterData= async (body)=>{
    
     console.log('body is', body)
- let response=   await fetch("http://api.pakthaika.com/api/user/isUserRegister", {
+ let response=   await fetch("https://api.pakthaika.com/api/user/isUserRegister", {
            method: 'POST',
            headers: {
              "content-type": "application/json",
